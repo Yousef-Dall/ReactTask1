@@ -7,7 +7,16 @@
     <title>Document</title>
   </head>
   <body>
-    <form style="display: flex; flex-direction: column; line-height: 30px" ;>
+    <h1 style="text-align: right; width: 40vw">Basic HTML form</h1>
+    <form
+      style="
+        width: 50vw;
+        display: flex;
+        flex-direction: column;
+        line-height: 23px;
+        margin: auto;
+      "
+    >
       <fieldset style="display: flex; flex-direction: column">
         <legend>Name</legend>
         <label for="FN">First Name </label>
@@ -17,7 +26,9 @@
         <input type="text" name="Last Name" id="LN" />
       </fieldset>
 
-      <fieldset style="display: flex; flex-direction: column">
+      <fieldset
+        style="display: flex; flex-direction: column; line-height: 20px"
+      >
         <legend>Other questions</legend>
 
         <p>choose a drink</p>
@@ -68,10 +79,12 @@
         </select>
 
         <label>please provide comments </label>
-        <textarea name="comments"></textarea>
+        <textarea style="height: 70px" name="comments"></textarea>
       </fieldset>
 
-      <button type="submit">Submit</button>
+      <button style="width: 60px; margin-top: 20px" type="submit">
+        Submit
+      </button>
     </form>
   </body>
 </html>
